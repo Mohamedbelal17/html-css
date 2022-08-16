@@ -1,0 +1,119 @@
+body {
+  background-color: #eee;
+}
+.main {
+  margin: 70px auto;
+  width: 900px;
+  height: 600px;
+  background-size: contain;
+  background-color: #e1e7f8;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  box-shadow: 0px 3px 33px #80808061;
+  display: flex;
+  align-items: center;
+}
+.des {
+  background-color: white;
+  width: 350px;
+  height: 70vh;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+img {
+  width: 350px;
+  border-radius: 20px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.con {
+  display: flex;
+  width: 350px;
+  flex-wrap: wrap;
+}
+.first-word {
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  padding-top: 25px;
+  font-weight: bolder;
+  padding-bottom: 15px;
+  color: #141c40;
+}
+.second-word {
+  text-align: center;
+  width: 83%;
+  font-size: 15px;
+  color: #808080de;
+  padding-left: 9%;
+  padding-bottom: 15px;
+}
+.third-word {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 70%;
+  margin-left: 10%;
+  flex-wrap: nowrap;
+  background-color: #f8f9fe;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.p-c {
+  display: flex;
+  flex-direction: column;
+  margin-left: -90px;
+}
+.plan {
+  color: #141c40;
+  font-weight: bolder;
+  font-size: 15px;
+  padding-bottom: 3px;
+}
+.cost {
+  color: #808080de;
+  font-size: 15px;
+}
+.img2 {
+  width: 35px;
+}
+.fou-word {
+  width: 70%;
+  text-align: center;
+  background-color: #382ae1;
+  padding: 12px;
+  border-radius: 8px;
+  margin-left: 13%;
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  box-shadow: 0px 3px 33px #8875b6a8;
+  transition: all 0.4s ease 0.1s;
+}
+.fiv-word {
+  text-align: center;
+  width: 100%;
+  color: #808080de;
+  margin-top: 8%;
+  font-weight: bolder;
+  font-size: 14px;
+}
+a {
+  font-weight: bold;
+  font-size: 15px;
+}
+a:hover {
+  text-decoration: none;
+  color: #8774db;
+  font-weight: bolder;
+}
+.fou-word:hover {
+  background-color: #8774db;
+}
+.fiv-word:hover {
+  color: #141c40;
+}
